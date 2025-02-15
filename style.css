@@ -41,6 +41,13 @@
     height: 30px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .fa-search{
